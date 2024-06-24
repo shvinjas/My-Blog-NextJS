@@ -31,3 +31,6 @@ body {
     text-wrap: balance;
   }
 }
+.custom-placeholder::placeholder{
+  padding-left:20px;
+}
