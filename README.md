@@ -1,3 +1,18 @@
+## Description
+My Blog is a modern, responsive web application where users can browse and search for blog posts. It uses Next.js for the front-end, and it fetches blog posts from an external API.
+![myblog-1](https://github.com/shvinjas/my-blog-nextJS/assets/112388713/4de95d27-801f-41be-bfe4-3c38fc949b33)
+
+![myblog-2](https://github.com/shvinjas/my-blog-nextJS/assets/112388713/21c93620-df32-4328-92d5-d1071f08b2ad)
+
+![myblog-3](https://github.com/shvinjas/my-blog-nextJS/assets/112388713/9ee8eb91-4805-4b81-8d14-8525d26de2e5)
+
+## Features
+- Responsive design
+- Fetch and display blog posts from an API
+- Search functionality
+- Optimized images using Next.js `Image` component
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
