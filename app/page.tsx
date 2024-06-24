@@ -109,13 +109,12 @@ export default function Home() {
       <main className="container mx-auto px-4 py-6">
         <h2 className="text-4xl font-bold mb-4 lg:mb-6">Welcome to My Blog</h2>
         <p className="lg:mb-2">
-          Hi! I’m Jo. I share travellers how to travel the world safely — and I’m
-          here to help you have the best trip ever. I love travelling and started exploring  the
-          world alone in 2010. A decade later, I’ve traveled to 83 countries and
-          all seven continents! .
-          Whether you need guidance for your first solo trip or you’re a
-          seasoned traveler looking for destination inspiration, you’ve come to
-          the right place!
+          Hi! I’m Jo. I share travellers how to travel the world safely — and
+          I’m here to help you have the best trip ever. I love travelling and
+          started exploring the world alone in 2010. A decade later, I’ve
+          traveled to 83 countries and all seven continents! . Whether you need
+          guidance for your first solo trip or you’re a seasoned traveler
+          looking for destination inspiration, you’ve come to the right place!
         </p>
       </main>
       <div className="flex justify-end px-4 lg:mb-6">
@@ -137,7 +136,7 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {posts.map((post) => (
-          <Link href={"/post/" + post._id}>
+          <Link key={post._id} href={"/post/" + post._id}>
             <div className="border border-gray-200 p-4">
               <img
                 className="w-full h-48 object-cover mb-4"
